@@ -1,7 +1,7 @@
 _schema: _schema
 source: /static/
 paths:
-  uploads: localsite
+  uploads:
   uploads_filename:
   uploads_use_relative_path:
   static:
