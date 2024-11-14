@@ -1,7 +1,21 @@
+_schema: _schema
+source: /assets/
+paths:
+  uploads:
+  uploads_filename:
+  uploads_use_relative_path:
+  static: https://rankwebsites.github.io/localsite/
+  dam_uploads:
+  dam_uploads_filename:
+  dam_static:
+  collections:
+  data:
+  layouts:
+  includes:
 collections_config:
   pages:
-    output: true
     icon: notes
+    output: true
     _enabled_editors:
       - visual
     disable_add: false
@@ -16,12 +30,12 @@ collections_config:
         remove_extra_inputs: true
         icon: notes
   blog:
-    output: true
     icon: edit_calendar
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
+    output: true
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
     add_options:
       - name: Add A New Blog Post
     disable_add: false
@@ -36,12 +50,12 @@ collections_config:
         remove_extra_inputs: true
         icon: notes
   careers:
-    output: true
     icon: cases
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
+    output: true
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
     add_options:
       - name: Add New Job Post
     disable_add: false
@@ -56,12 +70,12 @@ collections_config:
         remove_extra_inputs: true
         icon: group_add
   about:
-    output: true
     icon: person
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
+    output: true
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
     add_options:
       - name: Add New Team Member
     disable_add: false
@@ -76,12 +90,12 @@ collections_config:
         remove_extra_inputs: true
         icon: person_add
   services:
-    output: true
     icon: construction
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
+    output: true
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
     add_options:
       - name: Add New Service
     disable_add: false
@@ -206,17 +220,21 @@ _inputs:
       The weight value here will set the order in which your staff will be
       displayed.
     cascade: true
-_select_data: {}
-_structures: {}
 _editables:
   text:
+    allow_custom_markup: true
+    remove_custom_markup: false
     italic: true
   block:
+    allow_custom_markup: false
+    remove_custom_markup: false
     format: p h3
     image_size_attributes: true
     redo: true
     undo: true
   content:
+    allow_custom_markup: false
+    remove_custom_markup: false
     blockquote: true
     bold: true
     bulletedlist: true
@@ -235,8 +253,6 @@ _editables:
     table: true
     underline: true
     undo: true
-data_config: {}
-timezone: Etc/UTC
 _snippets:
   responsive_image:
     template: hugo_shortcode_named_args
@@ -263,3 +279,4 @@ _snippets:
       image_alt:
         type: text
         cascade: true
+timezone: Etc/UTC
