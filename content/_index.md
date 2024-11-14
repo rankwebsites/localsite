@@ -22,7 +22,7 @@ content_blocks:
       into real-time insights, make informed decisions, and lead the charge
       towards a sustainable future.
     image_1:
-      image_url: localsite/uploads/trees-1.jpg
+      image_url: uploads/trees-1.jpg
       image_alt: Trees with sunshine shining through branches
     image_2:
       image_url: /uploads/analytics-1.jpg
