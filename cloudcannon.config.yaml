@@ -3,7 +3,7 @@ source: /static/
 paths:
   uploads:
   uploads_filename:
-  uploads_use_relative_path:
+  uploads_use_relative_path: false
   static:
   dam_uploads:
   dam_uploads_filename:
